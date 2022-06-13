@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>TODO LIST</h1></header>
+      <div class="top">
+        <form class="bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" class="search" />
+        </form>
+      </div>
+      <div class="card">
+        <div class="list">
+          <ul>
+            <li class="each-li">
+              <span>watch video on Udemy.com </span
+              ><i class="fa-solid fa-delete-left"></i>
+            </li>
+            <li class="each-li">
+              <span>start my own project </span
+              ><i class="fa-solid fa-delete-left"></i>
+            </li>
+            <li class="each-li">
+              <span>walk my dog </span><i class="fa-solid fa-delete-left"></i>
+            </li>
+          </ul>
+        </div>
+        <form class="form2">
+          <i class="fa-solid fa-pencil"></i>
+
+          <input type="text" name="add" class="bar" />
+        </form>
+        <div class="error d-none"><h5>type something...</h5></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
